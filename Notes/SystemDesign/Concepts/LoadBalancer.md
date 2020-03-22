@@ -10,20 +10,20 @@ Load Balancer (LB) is another critical component of any distributed system. It h
     
 Typically a load balancer sits between the client and the server accepting incoming network and application traffic and distributing the traffic across multiple backend servers using various algorithms. By balancing application requests across multiple servers, a load balancer reduces individual server load and prevents any one application server from becoming a single point of failure, thus improving overall application availability and responsiveness.
 
-![Docker](./pictures/LoadBalancer.JPG)
+![Docker](pictures/LoadBalancer.JPG)
 
 To utilize full scalability and redundancy, we can try to balance the load at each layer of the system. We can add LBs at three places:
 
 Between the user and the web server
 Between web servers and an internal platform layer, like application servers or cache servers
 Between internal platform layer and database.
-![Docker](./pictures/LB1.JPG)
+![Docker](pictures/LB1.JPG)
 
 Load Balancers where it can be added
 * User -Web Server   eg. suppose between user and web ui
 * WebServer - Internal Server eg. between web ui and backend spring boot app
 * Internal Server - Database
-![Docker](./pictures/LB2.JPG)
+![Docker](pictures/LB2.JPG)
 
 Load Balancer Types
 * Hardware LB - Hardware which works as LB, but are very expensive.

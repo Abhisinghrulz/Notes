@@ -7,7 +7,7 @@ What is Sharding
 * Horizontal Scaling means adding more machines, which is cheaper & more feasible.
 * Vertical Scaling means improving servers. -> Not Preferable Increasing GB Size etc
 
-![Docker](./pictures/Sharding.JPG)
+![Docker](pictures/Sharding.JPG)
 
 <b>Sharding Methods</b>
 

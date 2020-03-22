@@ -6,7 +6,7 @@ Used to filter requests
 * Transform request by adding/removing headers
 * Encrypting/decrypting or compression
 
-![ProxyServer](./pictures/ProxyServer.JPG)
+![ProxyServer](pictures/ProxyServer.JPG)
 
 
 Benefits of using proxy server
